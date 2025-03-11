@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            width: 450px;
+        }
+        h1 {
+            color: #ffeb3b;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: 0.3s ease;
+        }
+        .btn:hover {
+            background: linear-gradient(to right, #dd2476, #ff512f);
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the Home Page</h1>
-    <a href="/predictdata">Go to Prediction Page</a>
+    <div class="container">
+        <h1>Welcome to the Student Exam Performance Indicator</h1>
+        <p>Predict your exam scores with our intelligent predictor.</p>
+        <a href="/predictdata" class="btn">Go to Prediction Page</a>
+    </div>
 </body>
 </html>
