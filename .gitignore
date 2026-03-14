@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+catboost_info/
+logs/
+.ipynb_checkpoints/

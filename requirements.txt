@@ -1,4 +1,15 @@
-pandas 
+# pandas 
+# numpy
+# seaborn
+# matplotlib
+# scikit-learn
+# catboost
+# xgboost
+# dill
+# flask
+# #-e .
+
+pandas
 numpy
 seaborn
 matplotlib
@@ -6,4 +17,6 @@ scikit-learn
 catboost
 xgboost
 dill
-#-e .
+Flask
+gunicorn
+-e .
